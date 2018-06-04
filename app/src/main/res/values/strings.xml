@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Weather prediction</string>
+    <string name="start_recognition_btn">Ask me about the weather</string>
+    <string name="start_vocalizer_btn">Vocalize what you asked</string>
+</resources>

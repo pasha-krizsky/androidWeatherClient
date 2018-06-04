@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/temperature_text"
+            android:text="Temperature:"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/temperature_value"
+            android:text="451"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/pressure_text"
+            android:text="Pressure:"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/pressure_value"
+            android:text="100500"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/humidity_text"
+            android:text="Clouds:"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/humidity_value"
+            android:text="100%"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/wind_direction_text"
+            android:text="Wind direction:"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/wind_direction_value"
+            android:text="West"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/wind_speed_text"
+            android:text="Wind speed:"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/wind_speed_value"
+            android:text="100 km/h"
+            android:fontFamily="sans-serif"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Go back"
+        android:id="@+id/btnActOne">
+    </Button>
+</LinearLayout>
